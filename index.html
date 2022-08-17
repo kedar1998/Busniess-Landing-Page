@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Tailwindcss Starter</title>
+</head>
+<body>
+    <!-- NAVBAR -->
+    <section id="navbar" class="px-4 py-8 bg-gray-500">
+
+        <nav class="container mx-auto flex items-center justify-between">
+            <!-- LOGO -->
+            <div class="">
+                <img src="./images/Logo.png" alt="" class="h-10 md:h-12">
+            </div>
+
+            <!-- DESKTOP MENU -->
+            <div class="hidden text-white font-semibold md:flex items-center space-x-7">
+                <a href="#">Home</a>
+                <a href="#">About Us</a>
+                <a href="#">Pages</a>
+                <a href="#">Agent</a>
+                <a href="#">Blog</a>
+                <a href="#">Subscribe</a>
+                <a href="#" class="border-2 border-gray-400 px-6 py-2">Let's Talk</a>
+            </div>
+        </nav>
+
+    </section>
+
+
+
+    <!-- HERO -->
+    <section id="hero" class="bg-gray-500 py-10 px-4 text-white">
+        <div class="container mx-auto flex flex-col md:flex-row md:space-x-10">
+            <!-- left -->
+            <div class="w-full md:w-1/2">
+                <img src="./images/hero.jpg" alt="">
+            </div>
+
+            <!-- right -->
+            <div class="w-full md:w-1/2 pt-5 md:pt-0">
+                <h1 class=" text-4xl md:text-6xl">Empowering your business with the best solution</h1>
+                <p class="py-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ea nobis reiciendis necessitatibus sit ut aspernatur magnam ab, laborum ipsa. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis, officiis sint? Minima nihil laborum unde magni optio hic sequi cumque!</p>
+                <div class="relative flex flex-col space-y-5 md:space-y-0">
+                    <input type="text" placeholder="Enter Your Email Address" class="md:w-full  h-14 ">
+                    <button class="md:absolute md:right-1 z-50 text-white font-semibold bg-green-400 md:top-1 py-3 px-10 ">Let's Talk</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- CONNECT SECTION -->
+    <section id="connect" class="py-20 px-4">
+        <div class="container mx-auto flex flex-col items-center">
+            <!-- top -->
+            <div>
+                <h1 class="text-4xl md:text-6xl w-full md:max-w-3xl text-center">We connect your business with your target</h1>
+            </div>
+
+
+            <!-- bottom -->
+            <div class="flex flex-col md:flex-row items-center space-y-10 md:space-y-0 md:space-x-36 mt-14">
+                <!-- ITEM - 1 -->
+                <div class="text-center ">
+                    <p class="text-3xl md:text-5xl font-bold">1,093</p>
+                    <p class="text-lg md:text-xl">Finished Projects</p>
+                </div>
+
+                <!-- ITEM - 2 -->
+                <div class="text-center ">
+                    <p class="text-3xl md:text-5xl font-bold">3,335</p>
+                    <p class="text-lg md:text-xl">Enrolled Projects</p>
+                </div>
+
+                <!-- ITEM - 3 -->
+                <div class="text-center ">
+                    <p class="text-3xl md:text-5xl font-bold">400</p>
+                    <p class="text-lg md:text-xl">Team Workers</p>
+                </div>
+
+                <!-- ITEM - 4 -->
+                <div class="text-center ">
+                    <p class="text-3xl md:text-5xl font-bold">90%</p>
+                    <p class="text-lg md:text-xl">Satisfaction Rate</p>
+                </div>
+
+            </div>
+
+            <!-- IMAGE -->
+            <div class="mt-10">
+                <img src="./images/1.jpg" alt="" class="">
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- SERVICES -->
+    <section id="services" class=" px-4 py-10">
+        <div class="container mx-auto flex flex-col">
+            <h1 class="mx-auto text-3xl md:text-5xl max-w-lg text-center font-bold mb-20">We have made your care easy for you</h1>
+
+
+            <!-- CARDS - 1 -->
+            <div class="flex flex-col-reverse md:flex-row items-center md:space-x-10">
+                <!-- LEFT -->
+                <div class="w-full md:w-1/2 text-center md:text-left">
+                    <h1 class="text-3xl md:text-6xl font-semibold">Effective website design and development</h1>
+                    <p class="text-md md:text-lg py-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus corrupti nobis dolorum fugiat error provident deserunt a vitae, voluptas quas, fugit consectetur dignissimos dolor accusamus.</p>
+                    <button class="bg-green-400 px-8 py-2 text-white font-semibold">Let's Talk</button>
+                </div>
+
+                <!-- RIGHT -->
+                <div class="w-full md:w-1/2  text-left mb-5 md:mb-0">
+                    <img src="./images/card-1.jpg" alt="">
+                </div>
+            </div>
+
+            <!-- CARDS - 2 -->
+            <div class="flex flex-col md:flex-row items-center md:space-x-10 py-20">
+                <!-- LEFT -->
+                <div class="w-full md:w-1/2  text-left mb-5 md:mb-0">
+                    <img src="./images/card-2.jpg" alt="" class="md:h-[550px] md:w-[550px]">
+                </div>
+                
+                <!-- RIGHT -->
+                <div class="w-full md:w-1/2 text-center md:text-left">
+                    <h1 class="text-3xl md:text-6xl font-semibold">We give proven digital marketing strategies for Our clients</h1>
+                    <p class="text-md md:text-lg py-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus corrupti nobis dolorum fugiat error provident deserunt a vitae, voluptas quas, fugit consectetur dignissimos dolor accusamus.</p>
+                    <button class="bg-green-400 px-8 py-2 text-white font-semibold">Let's Talk</button>
+                </div>
+            </div>
+
+            <!-- CARDS - 3 -->
+            <div class="flex flex-col-reverse md:flex-row items-center md:space-x-10">
+                <!-- LEFT -->
+                <div class="w-full md:w-1/2 text-center md:text-left">
+                    <h1 class="text-3xl md:text-6xl font-semibold">People will always judge the book by it's cover</h1>
+                    <p class="text-md md:text-lg py-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus corrupti nobis dolorum fugiat error provident deserunt a vitae, voluptas quas, fugit consectetur dignissimos dolor accusamus.</p>
+                    <button class="bg-green-400 px-8 py-2 text-white font-semibold">Let's Talk</button>
+                </div>
+
+                <!-- RIGHT -->
+                <div class="w-full md:w-1/2  text-left mb-5 md:mb-0">
+                    <img src="./images/card-3.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- CREATIVE HEADING -->
+    <section id="creative" class="px-4 py-10">
+        <div class="container mx-auto flex flex-col md:flex-row items-center justify-between">
+            <h1 class="md:text-5xl w-full md:max-w-sm">Meet our great creative teams.</h1>
+            <p class="w-full md:max-w-3xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, nemo, quia adipisci aut, quibusdam non nostrum consequatur iusto numquam autem earum voluptas pariatur neque dolore quidem ea error esse tempora.</p>
+        </div>
+    </section>
+
+
+    <!-- TEAMS CARDS -->
+    <section id="teams-cards" class="py-10 px-4">
+        <div class="container mx-auto flex flex-col md:flex-row md:space-x-10 space-y-10 md:space-y-0">
+            <!-- CARD -1  -->
+            <div class="w-full md:w-1/3">
+                <div>
+                    <img src="./images/team-1.jpg" alt="" class="">
+                </div>
+                <div class="">
+                    <h1 class="font-bold text-xl py-5">Amera Amanda</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis alias quisquam voluptatum commodi hic saepe nam. Quas quis provident modi?</p>
+                </div>
+            </div>
+
+            <!-- CARD -2  -->
+            <div class="w-full md:w-1/3">
+                <div>
+                    <img src="./images/team-2.jpg" alt="" class="">
+                </div>
+                <div class="">
+                    <h1 class="font-bold text-xl py-5">Lacus Podolski</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis alias quisquam voluptatum commodi hic saepe nam. Quas quis provident modi?</p>
+                </div>
+            </div>
+
+            <!-- CARD -3  -->
+            <div class="w-full md:w-1/3">
+                <div>
+                    <img src="./images/team-3.jpg" alt="" class="">
+                </div>
+                <div class="">
+                    <h1 class="font-bold text-xl py-5">Leny Marissa Naustion</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis alias quisquam voluptatum commodi hic saepe nam. Quas quis provident modi?</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

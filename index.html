@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
-    <title>Tailwindcss Starter</title>
+    <title>Business | Landing Page</title>
 </head>
 <body>
     <!-- NAVBAR -->
@@ -27,7 +27,26 @@
                 <a href="#">Subscribe</a>
                 <a href="#" class="border-2 border-gray-400 px-6 py-2">Let's Talk</a>
             </div>
+
+            <!-- HAMBURGER -->
+            <div class="md:hidden">
+                <button id="menu-btn" class="hamburger z-50">
+                    <div class="hamburger-top"></div>
+                    <div class="hamburger-bottom"></div>
+                </button>
+            </div>
         </nav>
+
+        <!-- MOBILE MENU -->
+        <div id="menu" class="hidden z-40 flex flex-col items-center text-white font-bold py-20 space-y-10 fixed inset-0 top-0 left-0 bottom-0 bg-gray-800">
+                <a href="#">Home</a>
+                <a href="#">About Us</a>
+                <a href="#">Pages</a>
+                <a href="#">Agent</a>
+                <a href="#">Blog</a>
+                <a href="#">Subscribe</a>
+                <a href="#" class="border-2 border-gray-400 px-6 py-2">Let's Talk</a>
+        </div>
 
     </section>
 
@@ -46,8 +65,8 @@
                 <h1 class=" text-4xl md:text-6xl">Empowering your business with the best solution</h1>
                 <p class="py-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ea nobis reiciendis necessitatibus sit ut aspernatur magnam ab, laborum ipsa. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis, officiis sint? Minima nihil laborum unde magni optio hic sequi cumque!</p>
                 <div class="relative flex flex-col space-y-5 md:space-y-0">
-                    <input type="text" placeholder="Enter Your Email Address" class="md:w-full  h-14 ">
-                    <button class="md:absolute md:right-1 z-50 text-white font-semibold bg-green-400 md:top-1 py-3 px-10 ">Let's Talk</button>
+                    <input type="text" placeholder="Enter Your Email Address" class="md:w-full  h-14 z-10">
+                    <button class="md:absolute md:right-1 z-10 text-white font-semibold bg-green-400 md:top-1 py-3 px-10 ">Let's Talk</button>
                 </div>
             </div>
         </div>
@@ -201,5 +220,88 @@
             </div>
         </div>
     </section>
+
+
+
+
+
+    <!-- FOOTER -->
+    <section id="footer" class="bg-black text-white py-10 px-4">
+        <div class="container mx-auto">
+            <!-- TOP -->
+            <div class="flex flex-col md:flex-row justify-between items-center pb-5 space-y-5 md:space-y-0">
+                <!-- LOGO -->
+                <div>
+                    <img src="./images/white-logo.png" alt="" class="h-10 md:h-12">
+                </div>
+                <!-- SOCIALS -->
+                <div class=" flex flex-col md:flex-row md:space-x-10 items-center space-y-5 md:space-y-0">
+                    <img src="./images/icons8-instagram-48.png" alt="" class="h-10">
+                    <img src="./images/icons8-facebook-48.png" alt="" class="h-10">
+                    <img src="./images/icons8-twitter-48.png" alt="" class="h-10">
+                    <img src="./images/icons8-github-48.png" alt="" class="h-10">
+                </div>
+            </div>
+            <hr>
+
+            <!-- Bottom -->
+            <div class="flex flex-col md:flex-row pt-10 items-center justify-between space-y-10 md:space-y-0">
+
+                <!-- PRODUCTS -->
+                <div class="flex flex-col space-y-5 text-center md:text-left">
+                    <h1 class="text-2xl font-bold">Our Products</h1>
+                    <a href="#">The Support Suite</a>
+                    <a href="#">The Sales Suite</a>
+                    <a href="#">Support</a>
+                    <a href="#">Guide</a>
+                </div>
+
+                <!-- TOP FEATURES -->
+                <div class="flex flex-col space-y-5 text-center md:text-left">
+                    <h1 class="text-2xl font-bold">Top Features</h1>
+                    <a href="#">Ticketing System</a>
+                    <a href="#">Knowledge Base</a>
+                    <a href="#">Community Forums</a>
+                    <a href="#">Help Desk Software</a>
+                </div>
+
+                <!-- RESOURCES -->
+                <div class="flex flex-col space-y-5 text-center md:text-left">
+                    <h1 class="text-2xl font-bold">Resources</h1>
+                    <a href="#">Product Support</a>
+                    <a href="#">Request Demo</a>
+                    <a href="#">Library</a>
+                    <a href="#">Business Blog</a>
+                </div>
+
+                <!-- COMPANY -->
+                <div class="flex flex-col space-y-5 text-center md:text-left">
+                    <h1 class="text-2xl font-bold">Company</h1>
+                    <a href="#">About Us</a>
+                    <a href="#">Press</a>
+                    <a href="#">Investors</a>
+                    <a href="#">Events</a>
+                </div>
+
+                <!-- Favorite Things -->
+                <div class="flex flex-col space-y-5 text-center md:text-left">
+                    <h1 class="text-2xl font-bold">Favorite Things</h1>
+                    <a href="#">For Enterprises</a>
+                    <a href="#">For Startup</a>
+                    <a href="#">For Benchmark</a>
+                    <a href="#">For Small Business</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <script src="./js/script.js"></script>
 </body>
 </html>

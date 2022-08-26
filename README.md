@@ -23,13 +23,13 @@
 ![Example screenshot](./images/desktop-6.png)
 
 
-![Example screenshot](./assets/mobile-1.png)
+![Example screenshot](./images/mobile-1.png)
 
-![Example screenshot](./assets/mobile-2.png)
+![Example screenshot](./images/mobile-2.png)
 
-![Example screenshot](./assets/mobile-3.png)
+![Example screenshot](./images/mobile-3.png)
 
-![Example screenshot](./assets/mobile-4.png)
+![Example screenshot](./images/mobile-4.png)
 
 
 

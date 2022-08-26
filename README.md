@@ -15,10 +15,21 @@
 
 
 ## Screenshots
-![Example screenshot](./assets/desktop-1.png)
+![Example screenshot](./images/desktop-1.png)
+![Example screenshot](./images/desktop-2.png)
+![Example screenshot](./images/desktop-3.png)
+![Example screenshot](./images/desktop-4.png)
+![Example screenshot](./images/desktop-5.png)
+![Example screenshot](./images/desktop-6.png)
 
 
 ![Example screenshot](./assets/mobile-1.png)
+
+![Example screenshot](./assets/mobile-2.png)
+
+![Example screenshot](./assets/mobile-3.png)
+
+![Example screenshot](./assets/mobile-4.png)
 
 
 
